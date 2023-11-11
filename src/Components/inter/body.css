@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+
+.main1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.p2{
+    height: 100dvh;
+}
+
+.logo-p2{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 0px;
+
+}
+
+.logos-2{
+    justify-content: space-around;
+    padding: 40px;
+    margin: 50px;
+    width: 220px;
+    height: 220px;
+}
+
+.residence{
+    margin-left: 70px; 
+}
+
+.residence h4{
+    font-weight: 500;
+    font-size: x-large;
+    color: rgb(160, 144, 55);
+
+}
+
+.residence h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: grey;
+}
+
+div #res2{
+    margin-top: 0px;
+    width: 100%;
+    position: absolute;
+    display: inline-flex;
+    overflow-x: scroll;
+  
+
+}
+
+
+
+.r2{
+    margin: 2px;
+    justify-content: space-evenly;
+
+    
+}
+
+.r2 img{
+    
+    border: 0.5px rgba(46, 46, 209, 0.6);
+    border-radius: 30px;
+}
+
+ .res-2{
+  flex-direction: row;
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    border: 0.5px rgba(46, 46, 209, 0.6);
+    border-radius: 30px;
+    justify-content: space-evenly; 
+    transition: transform 0.3s;
+   
+}
+
+.res-2:hover{
+    transform: scale(1.3);
+
+}
+
+.res-2::-webkit-scrollbar{
+    width: none;
+    overflow: auto;
+    display: none;
+} 
+
+.r2 div{
+    display: visible;
+    text-transform: capitalize;
+    margin-left: 80px;
+}
+.r-2 div:hover{
+    display: visible;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: azure;
+    padding: 10px;
+    animation: slide 3s infinite;
+}
+
+@keyframes slide {
+    0%{
+        transform: translate(-25%, 25%) translateX(-50%);
+    }
+
+    50%{
+        transform:translate(-25%, -25%) translateX(100%) ;
+    }
+    
+}
+.lg8{
+    margin-top: 600px;
+    display: relative;
+    float: left;
+    width: 100%;
+    height: 100dvh;
+}
+
+.lg8 img{
+    float: left;
+    width: 30%;
+    image-orientation: from-image;    
+    border-radius: 50% 50% 0 0;
+    height: 80dvh;
+    margin: 50px;
+}
+
+.lg8 div{
+    margin-left: 500px;
+}
+
+details{
+    justify-content: space-evenly;
+    padding-top:auto;
+    margin: 100px;
+}
+
+summary{
+    font-size: 25px;
+    font-weight: 900;
+    color: rgb(12, 46, 46);
+}
+
+details p{
+    font-size: 22px;
+    font-weight: 700;
+}
